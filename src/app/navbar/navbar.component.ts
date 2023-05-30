@@ -9,7 +9,7 @@ import { DatePipe } from '@angular/common';
 export class NavbarComponent {
   date;
   constructor(public datepipe: DatePipe) {
-    let currentDate = this.datepipe.transform(new Date(), 'MM/dd/yyyy');
+    let currentDate = this.datepipe.transform(new Date(), 'dd/MM/yyyy');
 
     this.date = currentDate;
     // console.log(currentDate);
