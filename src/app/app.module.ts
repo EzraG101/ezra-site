@@ -10,7 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageComponent } from './page/page.component';
+// import { PageComponent } from './page/page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
@@ -19,7 +19,7 @@ import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent,
+    // PageComponent,
     NavbarComponent,
     NotFoundComponent,
     HomeComponent,
