@@ -8,3 +8,7 @@ a:hover,
 a:active {
   color: inherit;
 }
+
+button:hover {
+  background-color: #1e0b40;
+}

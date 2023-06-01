@@ -70,3 +70,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #2a1949; /* Aquí sí ya no se que estoy haciendo */
 }
+
+a {
+  text-decoration: none;
+}
