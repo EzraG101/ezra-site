@@ -15,7 +15,7 @@ mat-grid-tile {
 }
 
 h1 {
-  color: #369;
+  color: #291255;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
@@ -71,6 +71,9 @@ body {
   background-color: #2a1949; /* Aquí sí ya no se que estoy haciendo */
 }
 
-a {
+a,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
 }
