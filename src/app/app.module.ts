@@ -6,6 +6,7 @@ import { DatePipe } from '@angular/common';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -30,6 +31,7 @@ import { HomeComponent } from './home/home.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
+    MatCardModule,
     HttpClientModule,
   ],
   providers: [DatePipe],
