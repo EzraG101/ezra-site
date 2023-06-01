@@ -1,4 +1,19 @@
 /* Application-wide Styles */
+mat-card {
+  width: 90%;
+  height: 95%;
+  background-color: #b999d5;
+}
+
+mat-grid-list {
+  margin: 0 1%;
+  padding: 2%;
+}
+
+mat-grid-tile {
+  background-color: #533a94;
+}
+
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
@@ -53,5 +68,5 @@ body {
 body {
   margin: 0 15% 5%;
   font-family: Roboto, "Helvetica Neue", sans-serif;
-  background-color: rgb(85, 85, 85); /* Aquí sí ya no se que estoy haciendo */
+  background-color: #2a1949; /* Aquí sí ya no se que estoy haciendo */
 }
