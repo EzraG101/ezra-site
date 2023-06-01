@@ -51,10 +51,7 @@ body {
   height: 100%;
 }
 body {
-  margin-top: 0;
-  margin-right: 100px;
-  margin-left: 100px;
-  margin-bottom: 30px;
+  margin: 0 15% 5%;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: rgb(85, 85, 85); /* Aquí sí ya no se que estoy haciendo */
 }
