@@ -16,7 +16,7 @@ export class AppComponent {
     this.matIconRegistry.addSvgIcon(
       'youtube',
       this.domSanitizer.bypassSecurityTrustResourceUrl(
-        'https://icons8.com/icon/84909/youtube'
+        'https://svgshare.com/i/tr6.svg'
       )
     );
     this.matIconRegistry.addSvgIcon(
