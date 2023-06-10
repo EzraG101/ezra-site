@@ -10,6 +10,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { HttpClientModule } from '@angular/common/http';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 // import { PageComponent } from './page/page.component';
@@ -35,6 +37,7 @@ import { HomeComponent } from './home/home.component';
     MatCardModule,
     MatGridListModule,
     HttpClientModule,
+    FlexLayoutModule,
   ],
   providers: [DatePipe],
   bootstrap: [AppComponent],
