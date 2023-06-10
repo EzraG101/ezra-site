@@ -11,6 +11,15 @@ export class HomeComponent {
   //   console.log(event);
   // }
   ngOnInit() {
+    // document.querySelector('.hide')?.setAttribute('hidden', 'false');
+    const firstTime = localStorage.getItem('key');
+    if (!firstTime) {
+      localStorage.setItem('key', 'loaded');
+      location.reload();
+    } else {
+      localStorage.removeItem('key');
+    }
+
     let card = document.querySelector('.card');
     this.height = card?.clientHeight;
 
