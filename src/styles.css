@@ -7,6 +7,7 @@ mat-card {
 
 mat-grid-list {
   margin: 2% 1%;
+  padding: 2%;
 }
 
 mat-grid-tile {
