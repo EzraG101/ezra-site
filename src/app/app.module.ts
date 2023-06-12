@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { DatePipe } from '@angular/common';
 
 import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
@@ -33,6 +34,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     MatToolbarModule,
     MatIconModule,
+    MatMenuModule,
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
