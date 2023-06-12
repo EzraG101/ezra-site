@@ -7,11 +7,10 @@ import { DatePipe } from '@angular/common';
   styleUrls: ['./navbar.component.css'],
 })
 export class NavbarComponent {
-  date;
-  constructor(public datepipe: DatePipe) {
-    let currentDate = this.datepipe.transform(new Date(), 'dd/MM/yyyy');
-
-    this.date = currentDate;
-    // console.log(currentDate);
-  }
+  // date;
+  // constructor(public datepipe: DatePipe) {
+  //   let currentDate = this.datepipe.transform(new Date(), 'dd/MM/yyyy');
+  //   this.date = currentDate;
+  // console.log(currentDate);
+  // }
 }
