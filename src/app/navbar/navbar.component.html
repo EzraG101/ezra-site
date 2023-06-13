@@ -1,7 +1,20 @@
 <mat-toolbar color="primary">
-  <button mat-icon-button aria-label="menu icon">
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="menu icon">
     <mat-icon>menu</mat-icon>
   </button>
+  <mat-menu
+    #menu="matMenu"
+    overlapTrigger="true"
+    xPosition="before"
+    class="menu"
+  >
+    <a routerLink="/blog"><button mat-menu-item>Blog</button></a>
+    <a routerLink="/folletos"><button mat-menu-item>Folletos</button></a>
+    <a routerLink="/clases"><button mat-menu-item>Clases</button></a>
+    <a routerLink="/publicaciones"
+      ><button mat-menu-item>Publicaciones</button></a
+    >
+  </mat-menu>
   <span class="title-center">
     <button mat-button>
       <a routerLink="/"><em>EZRA</em></a>
