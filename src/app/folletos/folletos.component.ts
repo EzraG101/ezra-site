@@ -3,8 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-folletos',
   templateUrl: './folletos.component.html',
-  styleUrls: ['./folletos.component.css']
+  styleUrls: ['./folletos.component.css'],
 })
 export class FolletosComponent {
-
+  ngOnInit() {
+    document.querySelector('.hide')?.setAttribute('hidden', 'true');
+  }
 }
