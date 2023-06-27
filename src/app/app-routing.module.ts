@@ -7,7 +7,7 @@ import { FolletosComponent } from './folletos/folletos.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: '/folletos', component: FolletosComponent },
+  { path: 'folletos', component: FolletosComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
