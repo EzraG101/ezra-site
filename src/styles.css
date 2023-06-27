@@ -5,14 +5,14 @@ mat-card {
   background-color: #b999d5;
 }
 
-mat-grid-list {
+/* mat-grid-list {
   margin: 2% 2%;
   padding: 2%;
 }
 
 mat-grid-tile {
   background-color: #533a94;
-}
+} */
 
 .menu {
   background-color: #2a1949;

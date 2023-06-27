@@ -1,7 +1,24 @@
 mat-card {
-  width: 90%;
-  height: 95%;
+  /* width: 90%;
+  height: 95%; */
+  text-align: justify;
   background-color: #9171be;
+  color: #0a0319;
+}
+
+mat-accordion {
+  padding: 1%;
+  margin: 1%;
+}
+
+mat-expansion-panel {
+  /* margin: 5%; */
+  padding: 1%;
+  background-color: #533a94;
+}
+
+.hide {
+  color: #533a94;
 }
 
 .icons8 {
@@ -9,10 +26,6 @@ mat-card {
   text-align: right;
 }
 
-a,
-a:visited,
-a:hover,
-a:active {
-  text-decoration: none;
-  color: #533a94;
+.left {
+  text-align: left;
 }

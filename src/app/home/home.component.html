@@ -1,13 +1,70 @@
 <!-- <app-page></app-page> -->
 <!-- <div fxLayout="row" fxLayoutAlign="start start"> -->
-<mat-grid-list
+<div style="display: flex; flex-grow: 0">
+  <mat-accordion multi>
+    <mat-expansion-panel disabled expanded>
+      <mat-card>
+        <mat-card-header><h2>Información General</h2></mat-card-header>
+        <mat-card-content>
+          <p>
+            ¡Bienvenidos a mi sitio web! <br />
+            <br />
+            Este es el sitio web de Ezra Guerrero Alvarez. Aquí podrán encontrar
+            todo lo que quiero hacer fácilmente accesible en internet: mi blog,
+            mis folletos de matemática, mis videos de YouTube, etc. <br />
+            <br />
+            Presionando el ícono de menú puedes navegar a mi blog, acceder a mis
+            folletos de matemática, ver las clases que he impartido y leer mis
+            publicaciones. <br />
+            <br />
+            Los íconos de la esquina superior derecha llevan a mi página de
+            Github, a mi canal de YouTube, a mi cuenta de Instagram y a mi
+            correo electrónico, donde pueden contactarme con cualquier pregunta,
+            comentario o sugerencia que deseen. <br />
+            <br />
+            Finalmente, en la sección «Destacado» verán una pequeña selección de
+            lo que tengo para ofrecer, destacando proyectos recientes y cosas de
+            las cuales estoy orgulloso. <br />
+            <br />
+            Espero este sitio sea útil y de su agrado. <br />
+            <br />
+            ~Ezra Guerrero Alvarez
+          </p>
+        </mat-card-content>
+        <mat-card-footer><br /></mat-card-footer>
+      </mat-card>
+    </mat-expansion-panel>
+  </mat-accordion>
+  <mat-accordion multi>
+    <mat-expansion-panel disabled expanded>
+      <mat-expansion-panel-header class="hide">
+        DESTACADODESTACADO
+      </mat-expansion-panel-header>
+      <mat-card>
+        <mat-card-header><h2>Destacado</h2></mat-card-header>
+        <mat-card-content>
+          <ul>
+            <li>
+              <p class="left">
+                Nuevos folletos añadidos a la página de
+                <a routerLink="/folletos">folletos</a>
+              </p>
+            </li>
+          </ul>
+        </mat-card-content>
+      </mat-card>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+
+<!-- <mat-grid-list
   [style]="'height: ' + height + 'px'"
   cols="3"
   gutterSize="5%"
   rowHeight="fit"
->
-  <!-- <mat-grid-list cols="3" rowHeight="1:1" gutterSize="5%"> -->
-  <mat-grid-tile colspan="2">
+> -->
+<!-- <mat-grid-list cols="3" rowHeight="1:1" gutterSize="5%"> -->
+<!-- <mat-grid-tile colspan="2">
     <mat-card>
       <mat-card-header><h2>Información General</h2></mat-card-header>
       <mat-card-content>
@@ -45,11 +102,11 @@
       <mat-card-header><h2>Destacado</h2></mat-card-header>
       <mat-card-content> ... </mat-card-content>
     </mat-card>
-  </mat-grid-tile>
-  <!-- </mat-grid-list> -->
-</mat-grid-list>
+  </mat-grid-tile> -->
+<!-- </mat-grid-list> -->
+<!-- </mat-grid-list> -->
 <p class="icons8">
   Los íconos fueron obtenidos del sitio
-  <a href="https://icons8.com/"> icons8 </a>
+  <a href="https://icons8.com/" style="color: #533a94"> icons8 </a>
 </p>
 <!-- </div> -->
