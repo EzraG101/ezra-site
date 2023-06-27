@@ -21,6 +21,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { FolletosComponent } from './folletos/folletos.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     NotFoundComponent,
     HomeComponent,
+    FolletosComponent,
   ],
   imports: [
     BrowserModule,
