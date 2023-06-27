@@ -3,3 +3,16 @@ mat-card {
   height: 95%;
   background-color: #9171be;
 }
+
+.icons8 {
+  color: #9171be;
+  text-align: right;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #533a94;
+}
