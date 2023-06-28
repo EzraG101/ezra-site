@@ -93,4 +93,7 @@ a:active {
   .hidden-mobile {
     display: none;
   }
+  body {
+    margin: 0 10%;
+  }
 }
