@@ -1,7 +1,7 @@
 mat-card {
   width: 100%;
   height: 95%;
-  text-align: justify;
+  text-align: left;
   background-color: #9171be;
   color: #0a0319;
 }
@@ -13,7 +13,7 @@ mat-accordion {
 
 mat-expansion-panel {
   /* margin: 5%; */
-  padding: 1%;
+  padding: 5px;
   background-color: #533a94;
 }
 
