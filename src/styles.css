@@ -88,3 +88,9 @@ a:active {
   text-decoration: none;
   color: #00316e;
 }
+
+@media (max-width: 1170px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
