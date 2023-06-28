@@ -10,7 +10,7 @@ mat-expansion-panel {
 }
 
 mat-card {
-  text-align: justify;
+  text-align: left;
   background-color: #9171be;
   color: #00316e;
 }
