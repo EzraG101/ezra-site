@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 import { DatePipe } from '@angular/common';
 
@@ -35,6 +36,7 @@ import { FolletosComponent } from './folletos/folletos.component';
   ],
   imports: [
     BrowserModule,
+    YouTubePlayerModule,
     AppRoutingModule,
     MatToolbarModule,
     MatIconModule,
