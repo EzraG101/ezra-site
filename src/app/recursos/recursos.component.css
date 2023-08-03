@@ -1,0 +1,23 @@
+mat-accordion {
+  padding: 2%;
+  margin: 2%;
+}
+
+mat-expansion-panel {
+  margin: 5%;
+  padding: 1%;
+  background-color: #533a94;
+}
+
+mat-card {
+  text-align: left;
+  background-color: #9171be;
+  color: #00316e;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}

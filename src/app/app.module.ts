@@ -25,6 +25,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FolletosComponent } from './folletos/folletos.component';
 import { ClasesComponent } from './clases/clases.component';
+import { RecursosComponent } from './recursos/recursos.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ClasesComponent } from './clases/clases.component';
     HomeComponent,
     FolletosComponent,
     ClasesComponent,
+    RecursosComponent,
   ],
   imports: [
     BrowserModule,
