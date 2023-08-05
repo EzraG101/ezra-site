@@ -26,6 +26,8 @@ import { HomeComponent } from './home/home.component';
 import { FolletosComponent } from './folletos/folletos.component';
 import { ClasesComponent } from './clases/clases.component';
 import { RecursosComponent } from './recursos/recursos.component';
+import { MathjaxComponent } from './mathjax/mathjax.component';
+import { GlobalService } from './global.service';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,7 @@ import { RecursosComponent } from './recursos/recursos.component';
     FolletosComponent,
     ClasesComponent,
     RecursosComponent,
+    MathjaxComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,7 +56,7 @@ import { RecursosComponent } from './recursos/recursos.component';
     FlexLayoutModule,
     BrowserAnimationsModule,
   ],
-  providers: [DatePipe],
+  providers: [DatePipe, GlobalService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

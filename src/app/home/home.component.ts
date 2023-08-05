@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+// import { MathjaxComponent } from '../mathjax/mathjax.component';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  height?: number | undefined;
+  //   @ViewChild(MathjaxComponent) childView: MathjaxComponent;
+
+  //   name = 'Mathjax ';
+  //   mathContent = `When $ a \\ne 0 $, there are two solutions to \\(ax^2 + bx + c = 0 \\) and they are
+  // $$ x = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}$$`;
+  // height?: number | undefined;
   // onResize(event): void {
   //   console.log(event);
   // }
