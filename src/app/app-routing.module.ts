@@ -11,6 +11,7 @@ import { BlogComponent } from './blog/blog.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'blog', component: BlogComponent },
+  { path: 'blog/:post', component: BlogComponent },
   { path: 'folletos', component: FolletosComponent },
   { path: 'clases', component: ClasesComponent },
   { path: 'recursos', component: RecursosComponent },

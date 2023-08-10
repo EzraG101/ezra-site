@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { MathjaxComponent } from '../mathjax/mathjax.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-blog',
@@ -9,6 +10,18 @@ import { MathjaxComponent } from '../mathjax/mathjax.component';
 export class BlogComponent {
   @ViewChild(MathjaxComponent) childView: MathjaxComponent;
   name = 'Mathjax ';
+
+  subscribedParam = 'initial value';
+
+  constructor(private route: ActivatedRoute) {}
+
+  ngOnInit() {
+    this.route.paramMap.subscribe((params) => {
+      this.subscribedParam = params.get('post');
+    });
+    // console.log(this.subscribedParam);
+  }
+
   blogs = [
     // {
     //   title: 'Test 1',
