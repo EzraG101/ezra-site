@@ -28,6 +28,7 @@ import { ClasesComponent } from './clases/clases.component';
 import { RecursosComponent } from './recursos/recursos.component';
 import { MathjaxComponent } from './mathjax/mathjax.component';
 import { GlobalService } from './global.service';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { GlobalService } from './global.service';
     ClasesComponent,
     RecursosComponent,
     MathjaxComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
