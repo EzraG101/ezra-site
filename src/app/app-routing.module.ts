@@ -7,6 +7,7 @@ import { FolletosComponent } from './folletos/folletos.component';
 import { ClasesComponent } from './clases/clases.component';
 import { RecursosComponent } from './recursos/recursos.component';
 import { BlogComponent } from './blog/blog.component';
+import { CambiosComponent } from './cambios/cambios.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'folletos', component: FolletosComponent },
   { path: 'clases', component: ClasesComponent },
   { path: 'recursos', component: RecursosComponent },
+  { path: 'cambios', component: CambiosComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

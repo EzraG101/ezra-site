@@ -29,6 +29,7 @@ import { RecursosComponent } from './recursos/recursos.component';
 import { MathjaxComponent } from './mathjax/mathjax.component';
 import { GlobalService } from './global.service';
 import { BlogComponent } from './blog/blog.component';
+import { CambiosComponent } from './cambios/cambios.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { BlogComponent } from './blog/blog.component';
     RecursosComponent,
     MathjaxComponent,
     BlogComponent,
+    CambiosComponent,
   ],
   imports: [
     BrowserModule,
