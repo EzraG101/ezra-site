@@ -17,9 +17,14 @@
       </mat-card>
     </mat-expansion-panel>
     <div *ngFor="let blog of blogs">
-      <mat-expansion-panel disabled expanded>
+      <mat-expansion-panel expanded>
+        <mat-expansion-panel-header>
+          <h2>{{ blog.title }} ({{ blog.date }})</h2>
+        </mat-expansion-panel-header>
         <mat-card>
-          <mat-card-header><h2>Blog</h2></mat-card-header>
+          <mat-card-header>
+            <h2>{{ blog.title }}</h2>
+          </mat-card-header>
           <mat-card-content>
             <mathjax [content]="blog.content"></mathjax>
             <br />
@@ -29,13 +34,22 @@
           <mat-card-footer><br /></mat-card-footer>
         </mat-card>
       </mat-expansion-panel>
+      <br />
     </div>
   </mat-accordion>
   <mat-accordion multi class="hidden-mobile">
     <mat-expansion-panel disabled expanded>
       <mat-card>
         <mat-card-header><h2>Archivo</h2></mat-card-header>
-        <mat-card-content> </mat-card-content>
+        <mat-card-content>
+          <ul>
+            <div *ngFor="let blog of blogs">
+              <li>
+                <a>{{ blog.title }} ({{ blog.date }})</a>
+              </li>
+            </div>
+          </ul>
+        </mat-card-content>
       </mat-card>
     </mat-expansion-panel>
   </mat-accordion>
