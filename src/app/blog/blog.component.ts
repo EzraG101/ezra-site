@@ -29,6 +29,56 @@ export class BlogComponent {
     //   date: '09/08/2023',
     // },
     {
+      title: 'Aprender Enseñando',
+      date: '17/08/2023',
+      link: 'aprender-ensenar',
+      content: `Aprender y enseñar son dos verbos muy íntimamente relacionados. Para aprender, debe haber alguien o algo que lo enseñe
+      y para enseñar se requiere alguien que aprenda. Aún así, el enlace es aún más fuerte. Yo soy fiel creente que la mejor manera de
+      aprender es enseñado y que cuando uno enseña aprende mucho más de lo que cree. Esta creencia tiene fundamentos sólidos que llevo
+      varios años solidificando. Para poder enseñar algo, se requiere un entendimiento más profundo que el que provee solo el conocer
+      el tema. Poder expresar ideas de una manera que comunique el mensaje no solo claramente pero también simplemente no es sencillo
+      y solo al intentar enseñar un tema se puede aprender como hacer esto. <br />
+      <br />
+      Desde que era pequeño siempre he disfrutado aprender cosas nuevas. Recuerdo como antes de tener mi propio celular o computadora, 
+      le pedía prestada la suya a mi papá para poder aprender algo nuevo en <a href="https://www.khanacademy.org/">Khan Academy</a> o 
+      ver algún video de astronomía en YouTube. Sin embargo, la parte que más disfrutaba no era ver los videos o hacer ejercicios, si 
+      no comentarle a mi papá que es lo que había aprendido. No era hasta el momento que intentaba comunicarle a mi papá lo que había 
+      visto que comenzaba en verdad a probar mi entendimiento. Había aprendido cosas nuevas, pero hasta que las intentaba enseñar 
+      comenzaba a entenderlas en verdad. <br />
+      <br />
+      A mi criterio, la mejor parte de aprender algo nuevo es compartirlo con los demás. Como describí antes desde pequeño he tenido
+      ese deseo de compartir, y ese deseo solo se ha intensificado desde entonces. Cuando estaba en quinto grado, aprendimos a sumar
+      decimales. Poco antes de ese examen, yo había aprendido como multiplicarlos (probablemente de Khan Academy). Entonces,
+      cuando terminé rápido el examen, decidí que para pasar el tiempo que quedaba iba a describir detalladamente como multiplicar dos
+      números que tenían un punto decimal. No seré el mejor multiplicando, pero jamás se me va a olvidar que hacer si alguno de mis
+      números tienen un punto decimal. <br />
+      <br />
+      El año después de este suceso participaría en la ronda departamental de las olimpiadas matemáticas de Honduras. Con mi resultado en
+      esa prubea, entraría a la Academia Sabatina de Jóvenes Talento, donde iría a aprender matemática todos los sábados por cinco meses. 
+      Durante mi trayecto olímpico continué intentando compartir todo lo que aprendía. Siepre que me salía un problema que me parecía
+      bonito se lo compartía a mi papá. Al principio, podía ver como seguía mis explicaciones y luego reusaba los problemas para el 
+      club de matemática o inclusive alguna de sus clases. Se que mi papá me ha enseñado mucha más matemática de lo que ha aprendido de mi,
+      pero me gustaría creer que le he enseñado bastante. Después, cuando los problemas se volvían más complicados y las ideas involucradas
+      eran un poco más complejas, sospecho que mi papá solo disfrutaba escuchar como me emocionaba mientras explicaba la solución que
+      tanto me había gustado. <br />
+      <br />
+      En 2020 — con la pandemia en su máxima expresión — fui de solo enseñar aprendiendo a también aprender enseñando. Ese año comencé a dar
+      clase para la misma academia sabatina que me había enseñado por los cuatro años anteriores. Ahora, estaba presentado con el desafío de
+      compartirle a las nuevas generaciones lo que yo ya había aprendido antes. Sospecho que parte de la razón por la que mi nivel mejoró
+      tanto durante la pandemia fue precisamente porque tenía que dar clase. Preparar las clases e intentar presentar el material de la mejor
+      manera posible me hizo pensar mucho sobre temas a los que no les daba mucha importancia. Esto me ayudó mucho a solidificar mis bases
+      y a entender con más profundidad lo que ya sabía. Fue alrededor de estos momentos que comencé a darme cuenta del gran valor que tiene
+      la dualidad del aprendizaje y la enseñanza. <br />
+      <br />
+      El día de hoy hago un esfuerzo muy consciente por enseñar lo que aprendo y aprender lo que enseño. Ahora le doy clase a los posibles
+      olímpicos internacionales de Honduras, lo cual me está haciendo mucho mejor olímpico de lo que fui cuando participaba en competencias.
+      También, intento compartir con mis amigos bastante de lo que aprendo en mis clases, así refuerzo mi aprendizaje de la misma manera que
+      hacía antes con videos de YouTube y temas de Olimpiada. Este año apliqué con el departamento de matemáticas de mi universidad para ser
+      asistente en las clases que tomé el año pasado. De esta manera espero reforzar lo que aprendí el año pasado, ayudar a los nuevos
+      estudiantes y ganar un poco de dinero. Estoy muy feliz de poder compartir todo lo que aprendo y espero que todos puedan experimentar la 
+      alegría que es aprender y enseñar. $\\blacksquare$`,
+    },
+    {
       title: 'Puzles de Lápiz',
       date: '10/08/2023',
       link: 'puzles-lapiz',
@@ -100,7 +150,7 @@ export class BlogComponent {
       <br />
       En resumen, los puzles de lápices han sido un pasatiempo que disfruto un montón. Me dan todo lo que quiero de mi tiempo libre: una actividad
       con la cual me puedo divertir y resolver problemas al mismo tiempo. Estos puzles son asombrosos y recomiendo que todos intenten al menos uno 
-      que no es solo un sudoku clásico. Créanme, se van a divertir.`,
+      que no es solo un sudoku clásico. Créanme, se van a divertir. $\\blacksquare$`,
     },
   ];
 }
