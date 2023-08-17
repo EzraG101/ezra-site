@@ -76,7 +76,7 @@ export class BlogComponent {
       hacía antes con videos de YouTube y temas de Olimpiada. Este año apliqué con el departamento de matemáticas de mi universidad para ser
       asistente en las clases que tomé el año pasado. De esta manera espero reforzar lo que aprendí el año pasado, ayudar a los nuevos
       estudiantes y ganar un poco de dinero. Estoy muy feliz de poder compartir todo lo que aprendo y espero que todos puedan experimentar la 
-      alegría que es aprender y enseñar.`,
+      alegría que es aprender y enseñar. $\\blacksquare$`,
     },
     {
       title: 'Puzles de Lápiz',
@@ -150,7 +150,7 @@ export class BlogComponent {
       <br />
       En resumen, los puzles de lápices han sido un pasatiempo que disfruto un montón. Me dan todo lo que quiero de mi tiempo libre: una actividad
       con la cual me puedo divertir y resolver problemas al mismo tiempo. Estos puzles son asombrosos y recomiendo que todos intenten al menos uno 
-      que no es solo un sudoku clásico. Créanme, se van a divertir.`,
+      que no es solo un sudoku clásico. Créanme, se van a divertir. $\\blacksquare$`,
     },
   ];
 }
