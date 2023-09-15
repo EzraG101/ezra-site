@@ -34,7 +34,7 @@ export class BlogComponent {
       link: 'aprender-ensenar',
       content: `Aprender y enseñar son dos verbos muy íntimamente relacionados. Para aprender, debe haber alguien o algo que lo enseñe
       y para enseñar se requiere alguien que aprenda. Aún así, el enlace es aún más fuerte. Yo soy fiel creente que la mejor manera de
-      aprender es enseñado y que cuando uno enseña aprende mucho más de lo que cree. Esta creencia tiene fundamentos sólidos que llevo
+      aprender es enseñando y que cuando uno enseña aprende mucho más de lo que cree. Esta creencia tiene fundamentos sólidos que llevo
       varios años solidificando. Para poder enseñar algo, se requiere un entendimiento más profundo que el que provee solo el conocer
       el tema. Poder expresar ideas de una manera que comunique el mensaje no solo claramente pero también simplemente no es sencillo
       y solo al intentar enseñar un tema se puede aprender como hacer esto. <br />
