@@ -25,7 +25,6 @@ const routes: Routes = [
   { path: 'library', component: LibraryComponent},
   { path: 'resources', component: RecursosComponent},
   { path: 'blog', component: BlogComponent},
-  { path: 'blog/:post', component: BlogComponent},
 
   // Spanish
   { path: 'es', component: HomeComponent },
@@ -36,6 +35,8 @@ const routes: Routes = [
   { path: 'resources/es', component: RecursosComponent },
   { path: 'library/es', component: CambiosComponent },
   { path: '**', component: NotFoundComponent },
+
+  { path: 'blog/:post', component: BlogComponent},
 ];
 
 @NgModule({
