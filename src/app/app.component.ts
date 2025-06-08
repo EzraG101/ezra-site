@@ -37,5 +37,11 @@ export class AppComponent {
         '../assets/icons8-gmail-logo.svg'
       )
     );
+    this.matIconRegistry.addSvgIcon(
+      'language',
+      this.domSanitizer.bypassSecurityTrustResourceUrl(
+        '../assets/icons8-gmail-logo.svg'
+      )
+    );
   }
 }
