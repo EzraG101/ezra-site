@@ -30,6 +30,7 @@ import { MathjaxComponent } from './mathjax/mathjax.component';
 import { GlobalService } from './global.service';
 import { BlogComponent } from './blog/blog.component';
 import { CambiosComponent } from './cambios/cambios.component';
+import { TitlebarComponent } from './titlebar/titlebar.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { CambiosComponent } from './cambios/cambios.component';
     MathjaxComponent,
     BlogComponent,
     CambiosComponent,
+    TitlebarComponent,
   ],
   imports: [
     BrowserModule,

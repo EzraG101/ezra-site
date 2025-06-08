@@ -10,7 +10,16 @@ import { BlogComponent } from './blog/blog.component';
 import { CambiosComponent } from './cambios/cambios.component';
 
 const routes: Routes = [
+  // English
   { path: '', component: HomeComponent },
+  { path: 'research', component: HomeComponent},
+  { path: 'teaching', component: HomeComponent},
+  { path: 'library', component: HomeComponent},
+  { path: 'resources', component: HomeComponent},
+  { path: 'blog', component: HomeComponent},
+
+  // Spanish
+  { path: 'es', component: HomeComponent },
   { path: 'blog/es', component: BlogComponent },
   { path: 'blog/:post/es', component: BlogComponent },
   { path: 'folletos/es', component: FolletosComponent },
