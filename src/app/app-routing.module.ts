@@ -25,15 +25,16 @@ const routes: Routes = [
   { path: 'library', component: LibraryComponent},
   { path: 'resources', component: RecursosComponent},
   { path: 'blog', component: BlogComponent},
+  { path: 'blog/:post', component: BlogComponent},
 
   // Spanish
   { path: 'es', component: HomeComponent },
   { path: 'blog/es', component: BlogComponent },
   { path: 'blog/:post/es', component: BlogComponent },
-  { path: 'folletos/es', component: FolletosComponent },
-  { path: 'clases/es', component: ClasesComponent },
-  { path: 'recursos/es', component: RecursosComponent },
-  { path: 'cambios/es', component: CambiosComponent },
+  { path: 'research/es', component: FolletosComponent },
+  { path: 'teaching/es', component: ClasesComponent },
+  { path: 'resources/es', component: RecursosComponent },
+  { path: 'library/es', component: CambiosComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
