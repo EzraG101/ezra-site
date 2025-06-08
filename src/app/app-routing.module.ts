@@ -2,6 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { NotFoundComponent } from './not-found/not-found.component';
+
+// English
+import { HomepageComponent } from './homepage/homepage.component';
+import { ResearchComponent } from './research/research.component';
+import { TeachingComponent } from './teaching/teaching.component';
+import { LibraryComponent } from './library/library.component';
+
+// Spanish
 import { HomeComponent } from './home/home.component';
 import { FolletosComponent } from './folletos/folletos.component';
 import { ClasesComponent } from './clases/clases.component';
@@ -11,12 +19,12 @@ import { CambiosComponent } from './cambios/cambios.component';
 
 const routes: Routes = [
   // English
-  { path: '', component: HomeComponent },
-  { path: 'research', component: HomeComponent},
-  { path: 'teaching', component: HomeComponent},
-  { path: 'library', component: HomeComponent},
-  { path: 'resources', component: HomeComponent},
-  { path: 'blog', component: HomeComponent},
+  { path: '', component: HomepageComponent },
+  { path: 'research', component: ResearchComponent},
+  { path: 'teaching', component: TeachingComponent},
+  { path: 'library', component: LibraryComponent},
+  { path: 'resources', component: RecursosComponent},
+  { path: 'blog', component: BlogComponent},
 
   // Spanish
   { path: 'es', component: HomeComponent },

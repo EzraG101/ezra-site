@@ -31,6 +31,10 @@ import { GlobalService } from './global.service';
 import { BlogComponent } from './blog/blog.component';
 import { CambiosComponent } from './cambios/cambios.component';
 import { TitlebarComponent } from './titlebar/titlebar.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ResearchComponent } from './research/research.component';
+import { TeachingComponent } from './teaching/teaching.component';
+import { LibraryComponent } from './library/library.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,10 @@ import { TitlebarComponent } from './titlebar/titlebar.component';
     BlogComponent,
     CambiosComponent,
     TitlebarComponent,
+    HomepageComponent,
+    ResearchComponent,
+    TeachingComponent,
+    LibraryComponent,
   ],
   imports: [
     BrowserModule,
