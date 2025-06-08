@@ -11,12 +11,12 @@ import { CambiosComponent } from './cambios/cambios.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'blog', component: BlogComponent },
-  { path: 'blog/:post', component: BlogComponent },
-  { path: 'folletos', component: FolletosComponent },
-  { path: 'clases', component: ClasesComponent },
-  { path: 'recursos', component: RecursosComponent },
-  { path: 'cambios', component: CambiosComponent },
+  { path: 'blog/es', component: BlogComponent },
+  { path: 'blog/:post/es', component: BlogComponent },
+  { path: 'folletos/es', component: FolletosComponent },
+  { path: 'clases/es', component: ClasesComponent },
+  { path: 'recursos/es', component: RecursosComponent },
+  { path: 'cambios/es', component: CambiosComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
