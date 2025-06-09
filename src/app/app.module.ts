@@ -36,6 +36,7 @@ import { ResearchComponent } from './research/research.component';
 import { TeachingComponent } from './teaching/teaching.component';
 import { LibraryComponent } from './library/library.component';
 import { TitlebarESComponent } from './titlebar-es/titlebar-es.component';
+import { NavbarESComponent } from './navbar-es/navbar-es.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { TitlebarESComponent } from './titlebar-es/titlebar-es.component';
     TeachingComponent,
     LibraryComponent,
     TitlebarESComponent,
+    NavbarESComponent,
   ],
   imports: [
     BrowserModule,
