@@ -1,2 +1,42 @@
+<!-- Title and Navigation -->
 <app-titlebar></app-titlebar>
 <app-navbar></app-navbar>
+
+<!-- Content -->
+<div style="display: flex; justify-content: space-between;">
+  <mat-accordion multi>
+    <mat-expansion-panel disabled expanded>
+      <mat-card>
+        <mat-card-header><h2>Overview</h2></mat-card-header>
+        <mat-card-content>
+          <p>
+            Lorem ipsum blah blah <br/>
+            ~Ezra Guerrero Alvarez
+          </p>
+          <!-- <mathjax [content]="mathContent"></mathjax> -->
+        </mat-card-content>
+        <mat-card-footer><br /></mat-card-footer>
+      </mat-card>
+    </mat-expansion-panel>
+    <!-- <mat-expansion-panel expanded disabled>
+      <mat-card>
+        <mat-card-header> <h2>Problema de la Semana</h2> </mat-card-header>
+        <mat-card-content> [LaTeX] </mat-card-content>
+      </mat-card>
+    </mat-expansion-panel> -->
+  </mat-accordion>
+  <mat-accordion multi class="hidden-mobile">
+    <mat-expansion-panel disabled expanded>
+      <mat-card>
+        <mat-card-header><h2>Photo</h2></mat-card-header>
+        <mat-card-content>
+          Yo
+        </mat-card-content>
+      </mat-card>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+<p class="icons8">
+  Los íconos fueron obtenidos del sitio
+  <a href="https://icons8.com/" style="color: #533a94"> icons8 </a>
+</p>
