@@ -1,0 +1,31 @@
+mat-card {
+  width: 100%;
+  height: 95%;
+  text-align: left;
+  background-color: #9171be;
+  color: #0a0319;
+}
+
+mat-accordion {
+  padding: 1%;
+  margin: 1%;
+}
+
+mat-expansion-panel {
+  /* margin: 5%; */
+  padding: 5px;
+  background-color: #533a94;
+}
+
+.hide {
+  color: #533a94;
+}
+
+.icons8 {
+  color: #9171be;
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}

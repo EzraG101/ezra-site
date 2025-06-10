@@ -1,6 +1,6 @@
 <!-- Title and Navigation -->
-<app-titlebar></app-titlebar>
-<app-navbar></app-navbar>
+<app-titlebar-es></app-titlebar-es>
+<app-navbar-es></app-navbar-es>
 
 <!-- BROKEN: NEED TO ADD ENGLISH BLOG PAGE -->
 
@@ -34,7 +34,7 @@
               <h2>{{ blog.title }}</h2>
             </mat-card-header>
             <mat-card-content>
-              <a [routerLink]="'/blog/post/' + blog.link">
+              <a [routerLink]="'/blog/post/' + blog.link + '/es'">
                 (abrir en propia página)
               </a>
               <br />
@@ -56,11 +56,11 @@
       <mat-card>
         <mat-card-header><h2>Archivo</h2></mat-card-header>
         <mat-card-content>
-          <a routerLink="/blog">Página Principal</a>
+          <a routerLink="/blog/es">Página Principal</a>
           <ul>
             <div *ngFor="let blog of blogs">
               <li>
-                <a [routerLink]="'/blog/post/' + blog.link">
+                <a [routerLink]="'/blog/post/' + blog.link + '/es'">
                   {{ blog.title }} ({{ blog.date }})
                 </a>
               </li>
